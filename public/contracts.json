@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "title": "Software Licensing Agreement",
+    "parties": ["TechCorp Inc.", "Client Solutions Ltd."],
+    "startDate": "2025-01-01",
+    "expiryDate": "2026-01-01",
+    "status": "Active",
+    "riskScore": 72,
+    "clauses": [
+      {
+        "id": 1,
+        "title": "Confidentiality",
+        "summary": "Both parties agree to keep confidential information secure and not disclose it to third parties.",
+        "confidenceScore": 95
+      },
+      {
+        "id": 2,
+        "title": "Termination",
+        "summary": "The agreement may be terminated by either party with a 30-day notice period.",
+        "confidenceScore": 88
+      }
+    ],
+    "aiInsights": [
+      {
+        "id": 1,
+        "risk": "High data exposure risk due to vague confidentiality clause.",
+        "severity": "High",
+        "recommendation": "Add specific data protection measures and penalties for breaches."
+      },
+      {
+        "id": 2,
+        "risk": "Termination clause might be too short for operational readiness.",
+        "severity": "Medium",
+        "recommendation": "Increase notice period to at least 60 days."
+      }
+    ],
+    "evidence": [
+      {
+        "id": 1,
+        "snippet": "Confidential information includes trade secrets, proprietary data, and client records.",
+        "relevanceScore": 91
+      },
+      {
+        "id": 2,
+        "snippet": "The agreement can be terminated with 30 days written notice by either party.",
+        "relevanceScore": 85
+      }
+    ]
+  }
+]
