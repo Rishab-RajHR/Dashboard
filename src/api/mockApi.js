@@ -8,7 +8,7 @@ const companies = [
 'Globex',
 'Initech',
 'Umbrella',
-'Hooli',
+'Holi',
 'Stark Inc',
 'Wayne Enterprises',
 'Pied Piper',
